@@ -1,4 +1,4 @@
-# INS-# Cipher Implementation and Comparative Analysis
+# INS- Cipher Implementation and Comparative Analysis
 
 ## Overview
 This repository contains implementations of classical encryption techniques, including the **Playfair Cipher, Hill Cipher, Vigenère Cipher**, and a **Hybrid Cipher** combining AES substitution and transposition techniques. Additionally, a comparative analysis of these ciphers is provided, including cryptanalysis and performance evaluation.
