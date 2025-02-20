@@ -44,7 +44,20 @@ This repository contains implementations of classical encryption techniques, inc
 - **Complexity**:
   - **AES Encryption**: **O(n)**
   - **Transposition**: **O(n log n)** (sorting-based shuffling)
+  - 
+ ### 5. Fiestel Structure 
+## Overview
+This script implements a **Feistel network-based encryption** algorithm. It takes an input string and a key, performs bitwise operations, and produces an encrypted binary output. The Feistel structure is widely used in cryptographic algorithms like DES (Data Encryption Standard).
 
+## How It Works
+1. The input string is converted to **binary**.
+2. The binary string is split into **two halves** (Left and Right).
+3. A **key** is taken as input and converted to binary.
+4. The Feistel encryption **rounds** are performed:
+   - The **right half** is processed using the key and XOR’d with the left half.
+   - The halves are **swapped**.
+   - A second round of processing is done.
+5. The final encrypted binary is converted back into text.
 
 ## How to Run the Code
 
