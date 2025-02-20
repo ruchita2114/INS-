@@ -158,6 +158,31 @@ Key: thisis128bitkey
 Encrypted: [Hexadecimal String]
 Decrypted: HELLO WORLD
 ```
+### Fiestel Structure
+
+```sh
+python3 fiestel_structure.py
+```
+**Input:**
+```
+enter the string:hello world
+Result :  0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100
+**Output:**
+```
+enter the key :hello
+0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100
+h
+he
+hel
+hell
+hello
+hello 
+hello w
+hello wo
+hello wor
+hello worl
+hello world
+```
 
 ## Comparative Analysis
 | Cipher       | Type                         | Key Size        | Complexity (Enc/Dec) | Strengths                        | Weaknesses |
