@@ -182,23 +182,6 @@ hello wo
 hello wor
 hello worl
 hello world
-```
-
-## Comparative Analysis
-| Cipher       | Type                         | Key Size        | Complexity (Enc/Dec) | Strengths                        | Weaknesses |
-|-------------|------------------------------|-----------------|----------------------|---------------------------------|------------|
-| Playfair    | Digraph Substitution         | 5x5 Key Matrix  | O(n)                 | More secure than simple monoalphabetic | Still vulnerable to digraph analysis |
-| Hill        | Matrix-Based Block Cipher    | n x n Matrix    | O(n³)                 | Stronger encryption, uses algebra | Requires invertible key matrix |
-| Vigenère    | Polyalphabetic Substitution  | Variable Length | O(n)                  | Resists simple frequency analysis | Still breakable with Kasiski method |
-| Hybrid (AES+Transposition) | Block Cipher + Shuffling | 128-bit Key  | O(n) AES, O(n log n) Transposition | Strong cryptographic security | Computationally heavier |
-
-## Future Improvements
-- Implement **automated cryptanalysis tools** to break weak ciphers.
-- Enhance **key management** for Hill and Playfair ciphers.
-- Extend hybrid cipher with **CBC mode encryption** for AES security.
-
-For any issues or contributions, feel free to submit a pull request or open an issue in the repository.
-
 
 
 
@@ -230,7 +213,7 @@ This Python application demonstrates secure data handling through **AES encrypti
 
 - Python 3
 - Tkinter (for GUI)
-- [PyCryptodome](https://www.pycryptodome.org/) (for cryptography: AES, RSA, SHA-256)
+- PyCryptodome (for cryptography: AES, RSA, SHA-256)
 
 ---
 
@@ -241,4 +224,3 @@ This Python application demonstrates secure data handling through **AES encrypti
 ```bash
 git clone https://github.com/your-username/secure-data-handler.git
 cd secure-data-handler
-
