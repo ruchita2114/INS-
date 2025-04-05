@@ -224,3 +224,25 @@ This Python application demonstrates secure data handling through **AES encrypti
 ```bash
 git clone https://github.com/your-username/secure-data-handler.git
 cd secure-data-handler
+```
+
+### 2. Install dependencies
+```bash
+pip install pycryptodome
+```
+
+### 3. How to Run
+```bash
+python "mini project.py"
+```
+## A window will open allowing you to enter text, encrypt/decrypt, sign/verify easily through buttons.
+## Testing & Evaluation
+✅ AES encryption/decryption tested with ASCII, Unicode, and edge cases (e.g., empty strings).
+
+✅ Digital signature verification accurately detects any tampering with the original message.
+
+⚠️ Note: RSA keys are regenerated on every run; long-term use would require secure key storage.
+
+⚠️ Padding is implemented manually; consider using Crypto.Util.Padding for standardized methods.
+
+
