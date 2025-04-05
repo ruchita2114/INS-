@@ -197,4 +197,48 @@ hello world
 - Enhance **key management** for Hill and Playfair ciphers.
 - Extend hybrid cipher with **CBC mode encryption** for AES security.
 
-For any issues or contributions, feel free to submit a pull request or open an issue in the repository. 
+For any issues or contributions, feel free to submit a pull request or open an issue in the repository.
+
+
+
+
+# INS- MINI PROJECT README FILE
+
+# 🔐 Secure Data Handling GUI with AES and RSA
+
+This Python application demonstrates secure data handling through **AES encryption**, **RSA digital signatures**, and a simple **graphical user interface (GUI)** built using Tkinter. It enables users to encrypt and decrypt text, sign data digitally, and verify digital signatures—all within an easy-to-use desktop interface.
+
+---
+
+## 📌 Features
+
+- **AES-256 Encryption & Decryption (CBC Mode)**  
+  Encrypts and decrypts plaintext with a randomly generated key and initialization vector (IV).
+
+- **RSA Digital Signature & Verification**  
+  Signs the text using RSA and SHA-256 hash. Verifies the authenticity and integrity of the signed message.
+
+- **User-Friendly GUI (Tkinter)**  
+  Clean interface for secure operations—no command-line knowledge needed.
+
+- **Base64 Encoding for Output**  
+  All encrypted and signed outputs are encoded for readability and ease of copying.
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Tkinter (for GUI)
+- [PyCryptodome](https://www.pycryptodome.org/) (for cryptography: AES, RSA, SHA-256)
+
+---
+
+## 📥 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/secure-data-handler.git
+cd secure-data-handler
+
